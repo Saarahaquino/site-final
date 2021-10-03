@@ -1,0 +1,99 @@
+/* INDEX -----------------------
+------------------- */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ /*Imagem do fundo ------------
+ ------------ */
+.img {
+    opacity: 0.15;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -9999;
+}
+
+/* Tirando a linha do link -------------
+------------ */
+
+ a{
+   text-decoration: none;
+}
+
+/* MENU -------------------------
+--------------------- */
+
+.header{
+    background: rgb(36,110,94);
+    background:linear-gradient(90deg, rgba(36,110,94,0.37298669467787116) 0%, rgba(156,111,189,0.7091211484593838) 46%, rgba(0,212,255,0.4458158263305322) 100%);
+    display: flex;
+    justify-content:space-between;
+}
+
+.header p, h1{
+    font-size: 50px;
+    margin: auto 45px ;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    color: rgba(155, 38, 149, 0.58);   
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+.header a {
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    color: teal;
+}
+
+/* CONTEÚDO DO INDEX --------------
+------------- */
+
+.mulheres-2{ 
+    border-radius: 25px;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+/* ESTILO PARA TODAS AS PÁGINA ---------------
+-------------  */
+
+ .principal, p{
+    text-align: center;
+    margin: 30px 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+}
+
+h2, h3{
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+    color: teal;
+}
+
+img{
+    width: 450px;
+
+}
+
+.footer{
+    background: rgb(36,110,94);
+    background:linear-gradient(90deg, rgba(36,110,94,0.37298669467787116) 0%, rgba(156,111,189,0.7091211484593838) 46%, rgba(0,212,255,0.4458158263305322) 100%);
+    font-size: 30px;
+    height: 50px;
+    text-align: center;  
+ }
+
+ .footer p{
+    color: teal;
+ }
