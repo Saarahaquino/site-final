@@ -20,12 +20,20 @@
 
  a{
    text-decoration: none;
+   transition: 0.2s  ;
+}
+
+a:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(26, 19, 124, 0.3);
 }
 
 /* MENU -------------------------
 --------------------- */
 
 .header{
+    box-sizing: border-box;
     background: rgb(36,110,94);
     background:linear-gradient(90deg, rgba(36,110,94,0.37298669467787116) 0%, rgba(156,111,189,0.7091211484593838) 46%, rgba(0,212,255,0.4458158263305322) 100%);
     display: flex;
@@ -40,17 +48,39 @@
     color: rgba(155, 38, 149, 0.58);   
 }
 
-li{
-    display: inline-block;
-    list-style: none;
-    margin: 20px;
+.nave{
+    width: 500px;
+    height: 100px;
 }
 
-.header a {
+.header .nave ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+ li{
+    display: inline-block;
+    list-style: none;  
+}
+
+.mulheres-2 li{
+    margin: 10px;
+}
+
+.header .nave a {
     font-size: 25px;
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     color: teal;
+    display: block;
+    padding: 10px;
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+    transition: 0.1s;
 }
 
 /* CONTEÚDO DO INDEX --------------
